@@ -9,3 +9,5 @@ jobs:
         with:
           node-version: 24
       - run: npm test
+      - run: npm test
+        working-directory: stockdesk

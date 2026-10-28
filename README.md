@@ -1,4 +1,4 @@
-# Applytrack
+# ApplyTrack
 
 A local full-stack portfolio demo created with AI assistance for Mayank Raj. Review and understand the implementation before presenting it in an interview.
 
@@ -41,3 +41,9 @@ This is a single-user local demo, not a production SaaS. It binds to loopback an
 3. Explain why validation is needed on both client and server.
 4. Explain the tradeoff: minimal dependencies and simple local deployment versus no authentication or multi-user permissions.
 5. Be clear that this project was AI-assisted; distinguish code you reviewed or modified from generated scaffolding.
+
+## Companion project: StockDesk
+
+[Open StockDesk](stockdesk/) for the independent inventory application. Run it from the `stockdesk` directory with `npm start` and `npm test`. Both applications share this repository, but have separate servers, databases and tests.
+
+[Hinglish walkthrough](INTERVIEW_GUIDE.md)
